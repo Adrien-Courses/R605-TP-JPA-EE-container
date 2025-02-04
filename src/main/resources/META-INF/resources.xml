@@ -1,0 +1,10 @@
+
+<tomee>
+  <Resource id="jdbc/jpa-jee-architecture" type="javax.sql.DataSource">
+    JdbcDriver = com.mysql.cj.jdbc.Driver
+    JdbcUrl = jdbc:mysql://localhost:3307/jpa-ee-container
+    UserName = root
+    Password = password
+    JtaManaged = true
+  </Resource>
+</tomee>
